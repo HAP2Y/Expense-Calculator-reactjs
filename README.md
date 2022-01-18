@@ -1,4 +1,4 @@
-# Expense Tracker (ReactJS)
+# Expense Calculator (ReactJS)
 
 ## Usage
 ```
