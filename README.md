@@ -8,6 +8,6 @@ npm start
 # Run http://localhost:3000 after the command
 
 npm run build
-# Build for production
+# Build command for production
 ```
 
