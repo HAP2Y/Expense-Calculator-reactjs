@@ -33,7 +33,16 @@ export const AddTransaction = () => {
           />
         </div>
         <div className="form-control">
-          <label htmlFor="amount">Amount</label>
+          <label htmlFor="amount">
+            Amount{" "}
+            <div className="tooltip">
+              <i class="fas fa-info-circle"></i>
+              <span class="tooltiptext">
+                Positive Amount = <span className="plus">Income</span>, Negative
+                Amount = <span className="minus">Expense</span>
+              </span>
+            </div>
+          </label>
           <input
             type="number"
             value={amount}

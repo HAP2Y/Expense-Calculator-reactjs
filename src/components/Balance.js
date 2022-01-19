@@ -25,9 +25,9 @@ export const Balance = () => {
   const total = amounts.reduce((acc, item) => (acc += item), 0);
 
   return (
-    <>
+    <div className='balance-container'>
       <h4>Your Balance</h4>
     <h1>{moneyFormatter(total)}</h1>
-    </>
+    </div>
   )
 }
